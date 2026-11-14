@@ -1,4 +1,7 @@
-# OptiCraft — webOS Edition
+# OptiCraft — my newest slooooooooooooooooooooop
+
+hi i tried to make minecraft for webos optimisied but no its not 12 fps on k6lp
+
 
 Port of **OptiCraft NetCast Edition** (OptiCraft Heritage 1.7.3) to LG **webOS**
 TVs. The webOS platform layer is built on **SDL2** — the same approach as the
@@ -43,7 +46,6 @@ If neither is present the game starts but every texture/sound lookup fails.
 
 ## Build
 
-The build mirrors the McBetaCpp webOS port:
 
 ```sh
 cmake -B build/webos -DPLATFORM=WEBOS -DCMAKE_BUILD_TYPE=Release \
