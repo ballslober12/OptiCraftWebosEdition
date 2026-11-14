@@ -1,0 +1,6 @@
+set(CPACK_WEBOS_STRIP_COMMAND "@CMAKE_STRIP@")
+set(CPACK_WEBOS_PACKAGE_ARCH "@WEBOS_PACKAGE_ARCH@")
+# Optional: set both on the cmake command line to have a Homebrew Channel
+# manifest.json generated next to the IPK (see cmake/AresPackage.cmake).
+set(CPACK_WEBOS_MANIFEST_ICON "@WEBOS_MANIFEST_ICON@")
+set(CPACK_WEBOS_MANIFEST_LINK "@WEBOS_MANIFEST_LINK@")
